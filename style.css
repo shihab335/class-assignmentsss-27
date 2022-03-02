@@ -1,0 +1,269 @@
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0;
+}
+.container-made{
+    width: 85%;
+    margin: auto;
+}
+
+
+.res-menu{
+    display: none;
+}
+
+header {
+    background: #22c3a3;
+}
+.header-one{
+    display: flex;
+    width: 100%;
+}
+.header-left {
+}
+.header-left h1 {
+    color: #fff;
+    padding: 5px 0;
+}
+.header-right {
+    width: 70%;
+}
+.header-right ul {
+    text-align: right;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.header-right ul li {
+    display: inline-block;
+    position: relative;
+}
+.header-right ul li a {
+    display: inline-block;
+    padding: 19px 25px;
+    font-size: 18px;
+    color: #fff;
+    transition: .4s all ease-in-out;
+}
+.header-right ul li a:hover{
+    color: #000;
+}
+
+
+.header-right ul ul{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 150px;
+    display: block;
+    text-align: center;
+    background-color: #22c3a3;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s all ease-in-out;
+}
+.header-right ul ul li{
+    display: block;
+    padding-left: 0;
+    transition: .4s all ease-in-out;
+}
+.header-right ul ul li a{
+    display: block;
+    
+}
+.header-right ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    padding: 0;
+}
+.header-right ul ul li:hover{
+    padding-left: 15px;
+}
+
+/* banner section */
+
+
+.banner {
+	background-image: url(https://i.ibb.co/yRVB2Kh/header-bg01.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 280px;
+}
+.banner-fix {
+    text-align: center;
+}
+.banner-fix h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-fix h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.banner-btn {
+}
+.banner-btn a {
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: .4s all ease-in-out;
+}
+.banner-btn a:hover{
+    background-color: #0C9741;
+    border: 1px solid transparent;
+}
+
+/* serice section */
+
+
+.service{
+    padding-bottom: 60px;
+    border-bottom: 2px solid #22c3a3;
+}
+.service-flex {
+	display: flex;
+	margin: 80px 0;
+}
+.service-top{
+    padding-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.service-top h2{
+    font-weight: 600;
+}
+.service-top p{}
+.service-box {
+	width: 23%;
+	margin-right: 35px;
+}
+.service-box:nth-child(4){
+    margin-right: 0;
+}
+.service-inner {
+    text-align: center;
+}
+.service-inner span i {
+    color: #0dbf9b;
+    font-size: 45px;
+    margin-bottom: 23px;
+    transition: .4s all ease-in-out;
+}
+.service-inner h2 {
+    margin: 5px 0;
+}
+.service-inner p{}
+
+.service-inner span i:hover{
+    color: #0C9741;
+}
+
+/* about section */
+
+.about {
+	padding-bottom: 80px;
+}
+.about-flex{
+    display: flex;
+}
+.about-left{
+    width: 40%;
+}
+.about-left img{}
+.about-right{
+    width: 60%;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+.about-right h3 {
+    margin-top: 6px;
+    font-size: 25px;
+    color: #606060;
+}
+.about-right p {
+    font-size: 17px;
+    color: #606060;
+}
+
+/* contact section */
+
+.contact{
+    background-color: #F6F6F6;
+    padding-bottom: 60px;
+}
+.contact-flex {
+    display: flex;
+}
+.contact-box {
+    width: 33.3%;
+    text-align: center;
+}
+.contact-box span i {
+    font-size: 35px;
+    color: #0bbf9a;
+    margin-bottom: 11px;
+    transition: .4s all ease-in-out;
+}
+.contact-box p {
+    color: #606060;
+    font-size: 18px;
+}
+.contact-box span i:hover{
+    color: #0C9741;
+}
+
+/* footer section */
+
+.footer {
+    background: #0dbf9b;
+}
+.footer-top {
+    text-align: center;
+}
+.footer-top ul {
+}
+.footer-top ul li {
+    display: inline-block;
+}
+.footer-top ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    transition: .4s all ease-in-out;
+}
+.footer-top ul li a i {
+    font-size: 20px;
+    color: #fff;
+}
+.footer-top ul li a:hover i{
+    color: #000;
+}
+
+.footer-bottom {
+	background: #000;
+	text-align: center;
+	padding: 15px 0;
+}
+.footer-bottom span{
+    color: #606060;
+    transition: .4s all ease-in-out;
+}
+.footer-bottom span:hover{
+    color: #fff;
+}
